@@ -2,6 +2,7 @@
 <head>
 <meta charset="utf-8">
 <title>Naamloos document</title>
+<script type="text/javascript" src="json.js"></script>
 </head>
 
 <body>
