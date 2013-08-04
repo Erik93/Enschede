@@ -1,5 +1,21 @@
 <?php
 
+
+window.onload = function(){
+	var button = document.getElementById('gets');
+	button.onclick = loadnew;
+	loadnew();
+}
+
+
+
+function loadnew () {
+	var url="https://www.uitinenschede.nl/api/rest/locations?apikey=38459234y5wefcgejrkukju";
+	
+	return: $JSON;
+	
+}
+
 $JSON = false;
 $result = array(
   'Post Data' => $_POST,
