@@ -10,7 +10,7 @@
 
 
 <h1> Search for events in Enschede!</h1>
-<form method="GET" action="https://www.uitinenschede.nl/api/rest/locations?apikey=38459234y5wefcgejrkukju">
+<form method="GET" id="GETs" action="https://www.uitinenschede.nl/api/rest/locations?apikey=38459234y5wefcgejrkukju">
 <input name="tags" value="">
 <input type="submit" value="search">
 </form>
