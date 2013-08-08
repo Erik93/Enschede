@@ -1,4 +1,4 @@
-<?php
+
 
 
 window.onload = function(){
@@ -16,11 +16,16 @@ function loadnew () {
 	
 }
 
-$JSON = false;
-$result = array(
-  'Post Data' => $_POST,
-	'Get Data' => $_GET,
-	'Files' => array(),
+<?php
+$url = "http://www.uitinenschede.nl/api/rest/events?apikey=NpuORYzCTCDqYe4PBOCnEmTYI22F6wkK";
+$response = file_get_contents($url);
+echo $response;
+
+#$JSON = false;
+#$result = array(
+#  'Post Data' => $_POST,
+#	'Get Data' => $_GET,
+#	'Files' => array(),
 );
 
 
