@@ -1,5 +1,13 @@
 <?php
 
+/*
+Plugin Name: Enschede feed
+Plugin URI: http://www.example.com
+Description: Enschede Feed
+Author: Erik Broekhuis
+Version: 1.0
+Author URI: http://www.example.com
+*/
 
 error_reporting(E_ALL);
 add_action("widgets_init", array('NielsDoornsWidget', 'register'));
